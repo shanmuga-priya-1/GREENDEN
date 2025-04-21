@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+
+      <!-- link to cdn -->
+      <link href="
+      https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+      " rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="bg-green-100 p-3 flex justify-between h-14 shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+    
+    
+        <ul class=" gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+    
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Products</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- products -->
+    <section class="p-4 text-center">
+        <h1 class="text-3xl font-bold mt-5 text-center">Our Products</h1>
+        <input id="search" style="width: 80%;" placeholder="Search for a Product..." type="text" class="p-2 m-3 border border-black">
+        <div id="product-container" class="grid grid-cols-2 md:grid-cols-4 gap-5 col-span-2 mt-5">
+            <div class="text-center">
+                <img class="inline w-52 h-52 transform hover:-translate-y-2 hover:shadow-xl transition " src="./images/im 1.1.jpg">
+                <h1>Spider Plant</h1>
+                <p>Rs.100</p>
+            </div>
+            <div class="text-center">
+                <img class="inline w-52 h-52 transform hover:-translate-y-2 hover:shadow-xl transition " src="./images/im 2.2.jpg">
+                <h1>Cactus Plant</h1>
+                <p>Rs.99</p>
+            </div>
+            <div class="text-center">
+                <img class="inline w-52 h-52 transform hover:-translate-y-2 hover:shadow-xl  transition " src="./images/im 3.jpg">
+                <h1>Rubber Plant</h1>
+                <p>Rs.110</p>
+            </div>
+            <div class="text-center">
+                <img class="inline w-52 h-52 transform hover:-translate-y-2 hover:shadow-xl  transition " src="./images/im 4.jpg">
+                <h1>Monstera Plant</h1>
+                <p>Rs.150</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline w-52 h-52 transform hover:-translate-y-2 hover:shadow-xl transition " src="./images/im 5.jpg">
+                <h1>Echeveria Plant</h1>
+                <p>Rs.120</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline w-52 h-52 transform hover:-translate-y-2 hover:shadow-xl transition " src="./images/im 6.jpg">
+                <h1>Zz Plant</h1>
+                <p>Rs.170</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline w-52 h-52 transform hover:-translate-y-2 hover:shadow-xl transition " src="./images/im 7.jpg">
+                <h1>Majestry Plam Plant</h1>
+                <p>Rs.210</p>
+            </div>
+
+            <div class="text-center">
+                <img class="inline w-52 h-52 transform hover:-translate-y-2 hover:shadow-xl  transition " src="./images/im 8.jpg">
+                <h1>Golden pothos Plant</h1>
+                <p>Rs.200</p>
+            </div>
+
+        </div>
+
+    </section>
+
+     <!-- Footer -->
+     <section class="bg-green-100 p-10 flex flex-col gap-5 mt-5">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>The Standard chunk of Lorem ipsum used since the 1500s is reproduced below for those interest.</p>
+        <p>&copy; 2025 Greenday.com</p>
+
+       </section>
+</body>
+</html>
